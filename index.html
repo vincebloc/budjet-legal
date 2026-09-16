@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Politique de confidentialité — Budjet</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --text-muted: #6b6b6b;
+    --border: #e5e5e5;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121212;
+      --text: #ededed;
+      --text-muted: #a0a0a0;
+      --border: #2a2a2a;
+    }
+  }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+    line-height: 1.6;
+  }
+  h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .updated {
+    color: var(--text-muted);
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    border-top: 1px solid var(--border);
+    padding-top: 24px;
+  }
+  p, li {
+    font-size: 15px;
+    color: var(--text);
+  }
+  ul {
+    padding-left: 20px;
+  }
+  li {
+    margin-bottom: 8px;
+  }
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
+  .contact {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--text-muted);
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<h1>Politique de confidentialité — Budjet</h1>
+<p class="updated">Dernière mise à jour : 16 septembre 2026</p>
+
+<p>Cette politique de confidentialité décrit comment l'application <strong>Budjet</strong> collecte, utilise et protège les données de ses utilisateurs.</p>
+
+<h2>Qui est responsable de vos données</h2>
+<p><strong>Éditeur de l'application :</strong> Vincent Blocteur<br>
+<strong>Contact :</strong> <a href="mailto:hello.budjet@gmail.com">hello.budjet@gmail.com</a></p>
+<p>Pour toute question sur cette politique ou pour exercer vos droits, vous pouvez nous contacter à l'adresse ci-dessus.</p>
+
+<h2>Où sont stockées vos données</h2>
+<p>Le stockage dépend du type d'espace budgétaire que vous utilisez :</p>
+<ul>
+  <li><strong>Espace personnel (non sauvegardé en ligne)</strong> : vos données restent uniquement sur votre appareil. Elles ne transitent jamais par nos serveurs et ne sont accessibles à personne d'autre que vous — pas même à l'éditeur de l'application.</li>
+  <li><strong>Espace personnel sauvegardé, ou espace partagé</strong> : vos données sont stockées sur Firebase / Google Cloud (hébergé par Google Ireland Limited), chiffrées en transit (HTTPS) et au repos, conformément aux standards de sécurité de Google Cloud.</li>
+</ul>
+
+<h2>Quelles données sont collectées</h2>
+<p>Si vous utilisez la sauvegarde en ligne dans Budjet, les données suivantes peuvent être collectées :</p>
+<ul>
+  <li><strong>Données de compte</strong> : adresse e-mail et identifiant unique, transmis par le fournisseur de connexion que vous choisissez (Google, Apple, ou création par e-mail/mot de passe)</li>
+  <li><strong>Nom affiché</strong> : si vous rejoignez ou créez un espace budgétaire partagé, votre nom s'affiche aux autres membres de cet espace</li>
+  <li><strong>Données que vous saisissez</strong> : comptes, soldes, revenus, dépenses, charges — uniquement les informations que vous entrez manuellement dans l'application</li>
+</ul>
+<p><strong>Ce que nous ne collectons pas :</strong></p>
+<ul>
+  <li>Aucune connexion à vos comptes bancaires réels — Budjet ne se synchronise avec aucune banque</li>
+  <li>Aucune donnée à des fins publicitaires, aucun tracking publicitaire tiers</li>
+</ul>
+
+<h2>Pourquoi vos données sont collectées</h2>
+<ul>
+  <li>Créer et sécuriser votre compte</li>
+  <li>Synchroniser vos données entre vos appareils, lorsque vous activez la sauvegarde</li>
+  <li>Permettre le fonctionnement des espaces budgétaires partagés (affichage du nom des membres, synchronisation en temps réel)</li>
+</ul>
+<p>Aucune donnée n'est utilisée à des fins de profilage, de revente, ou de publicité ciblée.</p>
+
+<h2>Combien de temps vos données sont conservées</h2>
+<p>Vos données sont conservées tant que votre compte existe. Si vous supprimez votre compte depuis l'application, l'ensemble de vos données (compte, données locales, données sur Firestore) est supprimé de façon définitive.</p>
+
+<h2>Vos droits</h2>
+<p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez des droits suivants :</p>
+<ul>
+  <li>Droit d'accès à vos données</li>
+  <li>Droit de rectification</li>
+  <li>Droit à l'effacement — vous pouvez supprimer votre compte et l'ensemble de vos données directement depuis l'application, dans Compte utilisateur → Supprimer mon compte. Cette action est immédiate et irréversible.</li>
+  <li>Droit à la portabilité</li>
+  <li>Droit d'opposition</li>
+</ul>
+<p>Pour exercer ces droits, contactez-nous à <a href="mailto:hello.budjet@gmail.com">hello.budjet@gmail.com</a>.</p>
+
+<h2>Partage des données avec des tiers</h2>
+<p>Vos données ne sont partagées avec aucun tiers à des fins commerciales ou publicitaires. Elles sont hébergées par Google Firebase, qui agit en tant que sous-traitant technique, dans le respect du RGPD.</p>
+<p>Dans le cas d'un espace budgétaire partagé, votre nom et les données financières de cet espace sont visibles par les autres membres que vous avez explicitement invités ou rejoints.</p>
+
+<h2>Sécurité</h2>
+<p>L'accès aux données stockées sur Firebase est restreint aux seuls membres authentifiés de chaque espace budgétaire. Les communications entre l'application et nos serveurs sont chiffrées (HTTPS).</p>
+
+<h2>Modifications de cette politique</h2>
+<p>Cette politique peut être mise à jour pour refléter des évolutions de l'application. La date de dernière mise à jour figure en haut de ce document.</p>
+
+<p class="contact">Pour toute question relative à cette politique de confidentialité ou à vos données personnelles : <a href="mailto:hello.budjet@gmail.com">hello.budjet@gmail.com</a></p>
+
+</body>
+</html>
